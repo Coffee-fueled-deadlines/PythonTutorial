@@ -48,5 +48,11 @@ a = True     # a is now set to the Boolean value of True
 | Operator | Description | Example |
 | --- | --- | --- |
 | + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For strings, it will return the two strings pieced together into one string.  | `a = 1 + 5` |
-| - | The Subraction operator.  This will subtract two Integer or Float values and give you the difference | `a = 5 - 3` |
+| - | The Subtraction operator.  This will subtract two Integer or Float values and give you the difference | `a = 5 - 3` |
+| * | The Multiplication operator.  This will multiply two Integer or Float values and give you the product.  In addition, it can be used to multiple the number of times a string value is delivered/printed | `a = 1 * 5` |
+| ** | The Exponent operator.  This will apply an exponent value to a string or float and return the value. | `a = 2 ** 3` |
+| / | The Division operator.  This will divide two Integer or Float values and give you the quotient. | `a = 4 / 2` |
+| = | The `set` or `equals` operator.  This operator DOES NOT behave how you might think it does.  This operator is used to set a Value to a Variable.  It does not check to see if two values are `equal to` one another. | `a = 5` |
+| == | The `is equal to` operator.  This operator compares two values to see if they are equal.  If they aren't equal, it returns False.  If they are equal, it returns True. | `a = (5) == (4+1)` |
+| != | The `does not equal` operator.  This operator compares two values to see if they are not equal.  If they aren't equal, it returns True, if they are Equal, it returns False (opposite of `==`) | `a = (5) != (3+50)` |
   
