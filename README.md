@@ -5,7 +5,7 @@
   This tutorial is being created to assist in teaching the Python Programming Language to new members of the coding team.  This Tutorial will cover some basic elements of the language to include:
   
   1. **[Variables](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#variables)**
-  1. Operators
+  1. **[Operators](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#operators)**
   1. Statements
   1. Functions
   1. Classes
@@ -55,4 +55,17 @@ a = True     # a is now set to the Boolean value of True
 | = | The `set` or `equals` operator.  This operator DOES NOT behave how you might think it does.  This operator is used to set a Value to a Variable.  It does not check to see if two values are `equal to` one another. | `a = 5` |
 | == | The `is equal to` operator.  This operator compares two values to see if they are equal.  If they aren't equal, it returns False.  If they are equal, it returns True. | `a = (5) == (4+1)` |
 | != | The `does not equal` operator.  This operator compares two values to see if they are not equal.  If they aren't equal, it returns True, if they are Equal, it returns False (opposite of `==`) | `a = (5) != (3+50)` |
+
+  Lets go more in depth with some of these operators and a general demonstration on how they are used:
   
+```
+name = "Bob Ross" # set the variable name to Bob Ross
+
+if (name == "Jon Doe"): # The == operator checks if name is equal to "Jon Doe"
+  print("Your name is Jon Doe")
+
+else: # triggers only if the initial if statement is False
+  print("Your name isn't Jon Doe, your name is " + name)
+```
+
+  If you where to input the above code into the Python Interpretor (IDE), you would get the result, "Your name isn't Jon Doe, your name is Bob Ross".  The reason for this is that the initial check on the If statement checked to see if the value of `name` was equal to `Jon Doe`.  But that is a False statement because we know that the value of `name` is `Bob Ross`.  So in this case, the `Else` part of the if statement triggers.  If this is confusing, don't worry!  We'll cover more on `if statements` later.
