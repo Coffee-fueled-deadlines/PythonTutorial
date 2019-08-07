@@ -4,7 +4,7 @@
 ## Introduction
   This tutorial is being created to assist in teaching the Python Programming Language to new members of the coding team.  This Tutorial will cover some basic elements of the language to include:
   
-  1. Variables
+  1. [Variables](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#variables)
   1. Operators
   1. Statements
   1. Functions
