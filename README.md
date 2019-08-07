@@ -41,3 +41,11 @@ a = True     # a is now set to the Boolean value of True
 
   As seen above, the variable `a` has been assigned and reassigned to all the different variable types without having to specify the type prior to it being set and re-set.  This is what defines a loosely typed language.
   
+## Operators
+  
+  Python, as with all Programming Languages, uses a multitude of operators.  Many of these operators are identical to those used in other languages while others are expressed in a unique way in Python.  They will be listed in a table below:
+  
+| Operator | Description | Example |
+| --- | --- | --- |
+| + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For strings, it will return the two strings pieced together into one string.  | a = 1 + 5, a = "Hello " + "world" |
+  
