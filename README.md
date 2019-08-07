@@ -6,7 +6,8 @@
   
   1. **[Variables](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#variables)**
   1. **[Operators](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#operators)**
-  1. Statements
+  1. Conditional Statements
+  1. Loops
   1. Functions
   1. Classes
   1. Objects
@@ -69,3 +70,32 @@ else: # triggers only if the initial if statement is False
 ```
 
   If you where to input the above code into the Python Interpretor (IDE), you would get the result, "Your name isn't Jon Doe, your name is Bob Ross".  The reason for this is that the initial check on the If statement checked to see if the value of `name` was equal to `Jon Doe`.  But that is a False statement because we know that the value of `name` is `Bob Ross`.  So in this case, the `Else` part of the if statement triggers.  If this is confusing, don't worry!  We'll cover more on `if statements` later.
+
+## Conditional Statement
+
+  In Python, a Conditional statement is generally an `if/else` statement.  Essentially it's running one section of code if the condition is met or another section of code if it is not met.  There are also `if/else if/else` statements, which allow for more conditional checks on information.  I will give some examples below:
+  
+```python
+a = 1
+
+if a == 1:
+    print("a is 1")
+    
+elif a == 2:
+    print("a is 2")
+    
+else:
+    print("a is something else!")
+```
+
+  Using the above code, try changing the value of `a` and see which section of code triggers.  By default, as it's written now, this code will print onto the screen, "a is 1" because the value of a is 1 and that conditional check matches.
+  
+## Loops
+
+  A Loop is a section of code designed to repeat a set amount of time or indefinitely (Infinite Loop).  One should be cautious using Infinite Loops, however, and should generally integrate in a system that allows the program to eventually stop itself.  An example of some loops are below:
+
+**For Loop**
+```Python
+# Lets count to ten
+for i in range(10):
+    
