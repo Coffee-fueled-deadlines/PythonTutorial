@@ -47,9 +47,6 @@ a = True     # a is now set to the Boolean value of True
   
 | Operator | Description | Example |
 | --- | --- | --- |
-| + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For strings, it will return the two strings pieced together into one string.  | 
-```a = 1 + 5
-a = "Hello " + "world"
-```
- |
+| + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For strings, it will return the two strings pieced together into one string.  | `a = 1 + 5` |
+| - | The Subraction operator.  This will subtract two Integer or Float values and give you the difference | `a = 5 - 3` |
   
