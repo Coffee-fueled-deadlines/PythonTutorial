@@ -9,7 +9,7 @@
   1. **[Conditional Statements](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#conditional-statement)**
   1. **[Loops](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#loops)**
   1. **[Lists](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#lists)**
-  1. Dictionaries/JSON
+  1. **[Dictionaries/JSON](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#dictionariesjson)**
   1. Functions
   1. Classes
   1. Objects
@@ -160,15 +160,20 @@ if number in myListOfNumbers:
  
    Dictionaries, in python, are keyed, unsorted, lists of data that do not allow for dupicate keys.  A dictionary is a great way to store information that you want to access quickly.  A few examples of some dictionaries are as follows:
    
- ```python
- myDictionary = {}
- myDictionary['a'] = 'hello'
- myDictionary['b'] = 'how'
- myDictionary['c'] = 'are'
- myDictionary['d'] = 'you'
+```python
+myDictionary = {}
+myDictionary['a'] = 'hello'
+myDictionary['b'] = 'how'
+myDictionary['c'] = 'are'
+myDictionary['d'] = 'you'
  
- print(myDictionary['c']) # prints the value of the Key 'c' (are)
- ```
+print(myDictionary['c']) # prints the value of the Key 'c' (are)
+ 
+# Dictionary key with a list for a value
+ 
+myDictionary['e'] = ['how','are','you','doing']
+print(myDictionary['e'])
+```
  
    You can store many things in a dictionary to include strings, integers, lists, and even other dictionaries.
    
@@ -204,3 +209,68 @@ with open('./jsonfile.json','r') as jsonfile:
 print(mydict['name']) # You'll see the name value stored in that json file that we saved in the last step
 ```
 
+## Functions
+
+  In python, Functions are sections of code that are reusable and callable in later sections of your script.  They can be supplied arguments and often return a value, however they can be created in a way that accepts no variables and returns nothing but instead runs a redetermined set of instructions.  A few examples are below:
+```python
+# Lets make our function
+def say_hello(name):
+    print("Hello", name)
+
+# Lets call our function
+say_hello("Coffee-Fueled-Deadlines")
+
+# Lets call it again with a new name
+say_hello("Billy Joel")
+```
+
+  In addition, functions can accept named paremeters:
+```python
+# Lets use our say_hello function again
+def say_hello(name):
+    print("Hello", name)
+    
+# This time lets call it a bit differently
+say_hello(name="Johnny Cash")
+```
+
+  If we'd like to REQUIRE our function to use named parameters, we can do this:
+```python
+# Oh look, our say_hello function again... but something is different now
+def say_hello(*,name):
+    print("Hello", name)
+
+# This will throw an error
+say_hello("Harry Potter")
+
+# To use it, we have to call it like this now
+say_hello(name="Harry Potter")
+```
+
+  In some cases, requiring named parameters can add clarity to a script.  Positional parameters have to be supplied in the correct order and any `None` values have to be specified.  With named parameters, you can have a complex-ish function as follows:
+```python
+# Our little person function
+def a_person(*, name=None, age=None, location=None):
+    person = {}
+    if name:
+        person['name'] = name
+    else:
+        person['name'] = 'Unknown'
+    if age:
+        person['age'] = age
+    else:
+        person['age'] = 'Unknown'
+    if location:
+        person['location'] = location
+    else:
+        person['location'] = 'Unknown'
+    return str("Person's name is " + person['name'] + " they are " + person['age'] + " years old and are from " + person['location'])
+    
+# Lets call this function in a few ways
+print(a_person())
+print(a_person(name='Jimmy Hendrix', age='27', location='Wisconson?'))
+print(a_person(name='Jimmy Hendrix'))
+print(a_person(age='27'))
+```
+
+  We've essentially created a function that will return a value regardless of the variables we feed it.  However, these variables need to be named in order for it to function correctly.  In the above example, it would be incredibly difficult to exclude information with positional parameters instead of named parameters.
