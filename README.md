@@ -8,6 +8,8 @@
   1. **[Operators](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#operators)**
   1. Conditional Statements
   1. Loops
+  1. Lists
+  1. Dictionaries
   1. Functions
   1. Classes
   1. Objects
@@ -98,4 +100,44 @@ else:
 ```Python
 # Lets count to ten
 for i in range(10):
-    
+    print(i)
+```
+
+  You'll notice that this prints the numbers 0 to 9 on your screen.  This is because python begins counting at 0.  To remedy this, you could do `print(i+1)`.
+  
+## Lists
+
+  A list, in python, is an unordered, unkeyed, changeable assortment of strings, integers, floats, lists, and dictionaries that allows for repeat values.  There isn't much that can't be stored in a list.  A few examples of a list are below:
+  
+```python
+# List of Integers
+myListOfNumbers = [1,2,3,4,5,6,7,8,9]
+
+# List of Strings
+myListOfStrings = ['hi','how','are','you']
+
+# A list of other lists
+myListOfLists = []
+myListOfLists.append(myListOfNumbers)
+myListOfLists.append(myListOfStrings)
+```
+
+  Checking a list for a value is simple and there are a few ways to do it.  One is to iterate through the list and compare values:
+  
+```python
+myListOfNumbers = [1,2,3,4]
+
+for i in range(len(myListOfNumbers)):
+    if myListOfNumbers[i] == 3:
+        print('3 is in myListOfNumbers')
+```
+
+  However, a much simpler way of doing it is this:
+  
+```python
+myListOfNumbers = [1,2,3,4]
+number = 3
+
+if number in myListOfNumbers:
+    print(number, 'is in myListOfNumbers')
+ ```
