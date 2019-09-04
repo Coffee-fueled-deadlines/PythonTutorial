@@ -294,3 +294,16 @@ print( add("Hello","World") )
 ```
 
   While cool, this isn't quite the desired result from our function and unexpected behaviors should be eliminated from our code.  Specifying the type of variable we're expecting mitigates this issue.
+  
+  Now lets improve our little `add()` function.  Lets assume we want to add a BUNCH of numbers together, but lets also say that we don't exactly know how many the user will supply.  We can accomadate this as follows:
+```python
+def add(*numbers: int):
+    total = 0
+    for i in range(len(numbers)):
+        total += numbers[i]
+    return total
+
+print( add(2,6,2) ) # Should return 10
+```
+
+  Our little `add()` function will now add all numbers supplied to it.  We accomplish this by adding an `*` in front of the parameter.  This tells our function to store the value in a `Tuple` (an immutable list).  We then iterate through this Tuple as though it where a list and add the numbers to the `total` variable in a `for loop` before returning the `total` variable.
