@@ -6,10 +6,10 @@
   
   1. **[Variables](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#variables)**
   1. **[Operators](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#operators)**
-  1. Conditional Statements
-  1. Loops
-  1. Lists
-  1. Dictionaries
+  1. **[Conditional Statements](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#conditional-statement)**
+  1. **[Loops](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#loops)**
+  1. **[Lists](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#lists)**
+  1. Dictionaries/JSON
   1. Functions
   1. Classes
   1. Objects
@@ -156,7 +156,7 @@ if number in myListOfNumbers:
     print(number, 'is in myListOfNumbers')
  ```
  
- ## Dictionaries
+ ## Dictionaries/JSON
  
    Dictionaries, in python, are keyed, unsorted, lists of data that do not allow for dupicate keys.  A dictionary is a great way to store information that you want to access quickly.  A few examples of some dictionaries are as follows:
    
@@ -204,4 +204,3 @@ with open('./jsonfile.json','r') as jsonfile:
 print(mydict['name']) # You'll see the name value stored in that json file that we saved in the last step
 ```
 
-  Apologies on the tangent, but I felt that it was relevent while on the topic of dictionaries.
