@@ -10,7 +10,7 @@
   1. **[Loops](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#loops)**
   1. **[Lists](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#lists)**
   1. **[Dictionaries/JSON](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#dictionariesjson)**
-  1. Functions
+  1. **[Functions](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#functions)**
   1. Classes
   1. Objects
   1. Properties
@@ -274,3 +274,23 @@ print(a_person(age='27'))
 ```
 
   We've essentially created a function that will return a value regardless of the variables we feed it.  However, these variables need to be named in order for it to function correctly.  In the above example, it would be incredibly difficult to exclude information with positional parameters instead of named parameters.
+  
+  Finally, we can also specify the Type of the parameter that we're expecting.  You can do this as follows:
+```python
+# Lets add some numbers
+def add(a: int, b: int):
+    return a + b
+    
+print( add(2, 6) ) # Should print 8
+```
+
+  Requiring a specific type can be important, at times.  For instance, if we didn't specify the type we wanted, something like this could happen:
+```python
+# Lets add some numbers
+def add(a, b):
+    return a + b
+
+print( add("Hello","World") )
+```
+
+  While cool, this isn't quite the desired result from our function and unexpected behaviors should be eliminated from our code.  Specifying the type of variable we're expecting mitigates this issue.
