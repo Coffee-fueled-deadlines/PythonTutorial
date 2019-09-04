@@ -58,6 +58,10 @@ a = True     # a is now set to the Boolean value of True
 | = | The `set` or `equals` operator.  This operator DOES NOT behave how you might think it does.  This operator is used to set a Value to a Variable.  It does not check to see if two values are `equal to` one another. | `a = 5` |
 | == | The `is equal to` operator.  This operator compares two values to see if they are equal.  If they aren't equal, it returns False.  If they are equal, it returns True. | `a = (5) == (4+1)` |
 | != | The `does not equal` operator.  This operator compares two values to see if they are not equal.  If they aren't equal, it returns True, if they are Equal, it returns False (opposite of `==`) | `a = (5) != (3+50)` |
+| < | The `Less Than` operator.  This operator compares two values (or statements) to see if the left section is less than the right section; if so it equates to `True` | `a = 4 < 6` |
+| > | The `Greater Than` operator.  This operator compares to value (or statements) to see if the left section is greater than the right section; if so it equates to `True` | `a = 5 > 3` |
+| <= | The `Less Than or Equal To` operator.  This operator behaves the same as the `<` operator but also checks if the values are the same; if so it equates to `True` | `a = 5 <= 5` |
+| >= | The `Greater Than or Equal To` opeartor.  This operator behaves the same as the `>` operator but also checks if the values are the same; if so it equates to `True` | `a = 3 >= 3` |
 
   Lets go more in depth with some of these operators and a general demonstration on how they are used:
   
