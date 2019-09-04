@@ -105,6 +105,16 @@ for i in range(10):
 
   You'll notice that this prints the numbers 0 to 9 on your screen.  This is because python begins counting at 0.  To remedy this, you could do `print(i+1)`.
   
+**While Loop**
+```python
+i = 0
+while i >= 10:
+    print(i)
+    i += 1
+```
+
+  You may have noticed that with this particular while loop, instead of counting from 0 to 9, it counted from 0 to 10 instead.  This is because of the operand `>=` (less than or equal to).
+  
 ## Lists
 
   A list, in python, is an unordered, unkeyed, changeable assortment of strings, integers, floats, lists, and dictionaries that allows for repeat values.  There isn't much that can't be stored in a list.  A few examples of a list are below:
@@ -141,3 +151,53 @@ number = 3
 if number in myListOfNumbers:
     print(number, 'is in myListOfNumbers')
  ```
+ 
+ ## Dictionaries
+ 
+   Dictionaries, in python, are keyed, unsorted, lists of data that do not allow for dupicate keys.  A dictionary is a great way to store information that you want to access quickly.  A few examples of some dictionaries are as follows:
+   
+ ```python
+ myDictionary = {}
+ myDictionary['a'] = 'hello'
+ myDictionary['b'] = 'how'
+ myDictionary['c'] = 'are'
+ myDictionary['d'] = 'you'
+ 
+ print(myDictionary['c']) # prints the value of the Key 'c' (are)
+ ```
+ 
+   You can store many things in a dictionary to include strings, integers, lists, and even other dictionaries.
+   
+ ```python
+ mainDict = {}
+ subDict = {'name':'coffee-fueled-deadlines','age':28}
+ 
+ mainDict['info'] = subDict
+ 
+ print(mainDict['info']['name']) # Accesses the mainDict 'info' key and then accesses the subDict 'name'
+ ```
+ 
+   As a side note, python dictionaries are very close in structure to JSON.  Converting between the two is very easily done and chances are likely that you'll find yourself doing this somewhere along the line in your programming career.
+   
+```python
+import json
+ 
+mydict = {'name':'coffee-fueled-deadlines','age':28,'location':'secret'}
+ 
+with open('./jsonfile.json','w') as jsonfile:
+    json.dump(mydict, jsonfile, indent=4)
+jsonfile.close()
+```
+
+  The above will write a file called `jsonfile.json` to the same directory that the python script is saved to.  If you open up this file, you'll see some lovely JSON in it that looks remarkably similar to a python dictionary.  Loading from a JSON file is just as easy:
+  
+```python
+import json
+
+with open('./jsonfile.json','r') as jsonfile:
+    mydict = json.load(jsonfile)
+
+print(mydict['name']) # You'll see the name value stored in that json file that we saved in the last step
+```
+
+  Apologies on the tangent, but I felt that it was relevent while on the topic of dictionaries.
