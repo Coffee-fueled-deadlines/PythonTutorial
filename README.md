@@ -12,10 +12,10 @@
   
   1. **[Variables](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#variables)**
   1. **[Operators](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#operators)**
-    * Arithmetic Operators
-    * Comparison
-    * Logical Operators
-    * Assignment Operators
+      * Arithmetic Operators
+      * Comparison
+      * Logical Operators
+      * Assignment Operators
   1. **[Conditional Statements](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#conditional-statement)**
   1. **[Loops](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#loops)**
   1. **[Lists](https://github.com/Coffee-fueled-deadlines/PythonTutorial/blob/master/README.md#lists)**
