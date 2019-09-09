@@ -58,6 +58,7 @@
 ## Operators
   
 >  Python, as with all Programming Languages, uses a multitude of operators.  Many of these operators are identical to those used in >other languages while others are expressed in a unique way in Python.  They will be listed in a table below:
+>
 >---  
 >### Arithmetic Operators
 >
