@@ -27,7 +27,7 @@
   1. Methods
   
   Each of the above topics can be clicked to bring you to that section of the tutorial.
-  
+---  
 ## Variables
   
 >  A variable, as in mathematics, is a placeholder for information.  This information can take on different Types:
@@ -53,7 +53,7 @@
 >```
 >
 >  As seen above, the variable `a` has been assigned and reassigned to all the different variable types without having to specify the >type prior to it being set and re-set.  This is what defines a loosely typed language.
-  
+---  
 ## Operators
   
   Python, as with all Programming Languages, uses a multitude of operators.  Many of these operators are identical to those used in other languages while others are expressed in a unique way in Python.  They will be listed in a table below:
