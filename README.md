@@ -44,15 +44,15 @@
 >      encompassed by single quotes `'` or doublequotes `"`.
 >    
 >  Python is a loosely typed language.  Typed, in this sense, is referring to the Variable Type (one of the above mentioned).  THis >means that you do not have to specify the variable type prior to assigning a value to it as you would have to in some other Programming >Languages.  For instance:
-  
-```Python
-a = 10       # a is set to the Integer value of 10
-a = "Cookie" # a is now set to the String value of Cookie
-a = 0.53     # a is now set to the Float value of 0.53
-a = True     # a is now set to the Boolean value of True
-```
-
-  As seen above, the variable `a` has been assigned and reassigned to all the different variable types without having to specify the type prior to it being set and re-set.  This is what defines a loosely typed language.
+>  
+>```Python
+>a = 10       # a is set to the Integer value of 10
+>a = "Cookie" # a is now set to the String value of Cookie
+>a = 0.53     # a is now set to the Float value of 0.53
+>a = True     # a is now set to the Boolean value of True
+>```
+>
+>  As seen above, the variable `a` has been assigned and reassigned to all the different variable types without having to specify the >type prior to it being set and re-set.  This is what defines a loosely typed language.
   
 ## Operators
   
