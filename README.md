@@ -58,7 +58,7 @@
 ## Operators
   
 >  Python, as with all Programming Languages, uses a multitude of operators.  Many of these operators are identical to those used in >other languages while others are expressed in a unique way in Python.  They will be listed in a table below:
->  
+>---  
 >### Arithmetic Operators
 >
 >>  Arithmetic Operators, in python, deal with adding, subtracting, multiplying, and dividing integers.  Also, the addition operator can >>be used in strings as well to include variables.  Listed below are some of the more common Arithmetic Operators.
@@ -81,7 +81,7 @@
 >>```
 >>
 >>  This works as it is essentially Adding the name value to the string provided in the `print` statement.
->
+>---
 >### Comparison Operators
 >
 >>  Comparison Operators, in python, are operators that compare two values or statements; such as checking if one value is greater than >>or equal to another.  Below are some examples of Comparison Operators:
