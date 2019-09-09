@@ -62,7 +62,7 @@
 >### Arithmetic Operators
 >
 >>  Arithmetic Operators, in python, deal with adding, subtracting, multiplying, and dividing integers.  Also, the addition operator can >>be used in strings as well to include variables.  Listed below are some of the more common Arithmetic Operators.
-  
+>>  
 >>| Operator | Description | Example |
 >>| --- | --- | --- |
 >>| + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For >>strings, it will return the two strings pieced together into one string.  | `a = 1 + 5` |
@@ -72,7 +72,7 @@
 >>| / | The Division operator.  This will divide two Integer or Float values and give you the quotient. | `a = 4 / 2` |
 >>| // | The Floor Division operator.  This will divide two Integer or Float Values and give you the quotient as a floor value (without >>the remainder included). | `a = 4 // 3` |
 >>| % | The Modulus Operator.  This will give you the remainder of two divided Integer or Float Values. | `a = 7 % 3` |
-
+>>
 >>  As a side note, the `Addition Operator` is frequently used with strings in the following manner:
 >>```python  
 >>name = "Willie Nelson"
