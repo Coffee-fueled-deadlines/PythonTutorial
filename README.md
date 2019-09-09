@@ -30,20 +30,20 @@
   
 ## Variables
   
-  A variable, as in mathematics, is a placeholder for information.  This information can take on different Types:
-  
-  * Integer
-    * An Integer is considered to be any whole number (positive or negative).
-  * Float
-    * A Float is any number that is fractional (positive or negative) Examples: `3.5`, `.25`, `-7.20`
-  * Boolean (Bool)
-    * A Boolean (commonly refered too as a Bool or a Bool Value) is either `True` or `False`
-  * String
-    * A string is any length or assortment of Text or Numerical values that should be treated
-      as numbers.  Examples: `"Cookie"`, `"3"`, `"A"`.  A string is defined in Python as being
-      encompassed by single quotes `'` or doublequotes `"`.
-    
-  Python is a loosely typed language.  Typed, in this sense, is referring to the Variable Type (one of the above mentioned).  THis means that you do not have to specify the variable type prior to assigning a value to it as you would have to in some other Programming Languages.  For instance:
+>  A variable, as in mathematics, is a placeholder for information.  This information can take on different Types:
+>  
+>  * Integer
+>    * An Integer is considered to be any whole number (positive or negative).
+>  * Float
+>    * A Float is any number that is fractional (positive or negative) Examples: `3.5`, `.25`, `-7.20`
+>  * Boolean (Bool)
+>    * A Boolean (commonly refered too as a Bool or a Bool Value) is either `True` or `False`
+>  * String
+>    * A string is any length or assortment of Text or Numerical values that should be treated
+>      as numbers.  Examples: `"Cookie"`, `"3"`, `"A"`.  A string is defined in Python as being
+>      encompassed by single quotes `'` or doublequotes `"`.
+>    
+>  Python is a loosely typed language.  Typed, in this sense, is referring to the Variable Type (one of the above mentioned).  THis >means that you do not have to specify the variable type prior to assigning a value to it as you would have to in some other Programming >Languages.  For instance:
   
 ```Python
 a = 10       # a is set to the Integer value of 10
