@@ -27,6 +27,7 @@
   1. Methods
   
   Each of the above topics can be clicked to bring you to that section of the tutorial.
+  
 ---  
 ## Variables
   
@@ -56,44 +57,44 @@
 ---  
 ## Operators
   
-  Python, as with all Programming Languages, uses a multitude of operators.  Many of these operators are identical to those used in other languages while others are expressed in a unique way in Python.  They will be listed in a table below:
+>  Python, as with all Programming Languages, uses a multitude of operators.  Many of these operators are identical to those used in >other languages while others are expressed in a unique way in Python.  They will be listed in a table below:
+>  
+>### Arithmetic Operators
+>
+>>  Arithmetic Operators, in python, deal with adding, subtracting, multiplying, and dividing integers.  Also, the addition operator can >>be used in strings as well to include variables.  Listed below are some of the more common Arithmetic Operators.
   
-### Arithmetic Operators
+>>| Operator | Description | Example |
+>>| --- | --- | --- |
+>>| + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For >>strings, it will return the two strings pieced together into one string.  | `a = 1 + 5` |
+>>| - | The Subtraction operator.  This will subtract two Integer or Float values and give you the difference | `a = 5 - 3` |
+>>| * | The Multiplication operator.  This will multiply two Integer or Float values and give you the product.  In addition, it can be >>used to multiple the number of times a string value is delivered/printed | `a = 1 * 5` |
+>>| ** | The Exponent operator.  This will apply an exponent value to a string or float and return the value. | `a = 2 ** 3` |
+>>| / | The Division operator.  This will divide two Integer or Float values and give you the quotient. | `a = 4 / 2` |
+>>| // | The Floor Division operator.  This will divide two Integer or Float Values and give you the quotient as a floor value (without >>the remainder included). | `a = 4 // 3` |
+>>| % | The Modulus Operator.  This will give you the remainder of two divided Integer or Float Values. | `a = 7 % 3` |
 
-  Arithmetic Operators, in python, deal with adding, subtracting, multiplying, and dividing integers.  Also, the addition operator can be used in strings as well to include variables.  Listed below are some of the more common Arithmetic Operators.
-  
-| Operator | Description | Example |
-| --- | --- | --- |
-| + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For strings, it will return the two strings pieced together into one string.  | `a = 1 + 5` |
-| - | The Subtraction operator.  This will subtract two Integer or Float values and give you the difference | `a = 5 - 3` |
-| * | The Multiplication operator.  This will multiply two Integer or Float values and give you the product.  In addition, it can be used to multiple the number of times a string value is delivered/printed | `a = 1 * 5` |
-| ** | The Exponent operator.  This will apply an exponent value to a string or float and return the value. | `a = 2 ** 3` |
-| / | The Division operator.  This will divide two Integer or Float values and give you the quotient. | `a = 4 / 2` |
-| // | The Floor Division operator.  This will divide two Integer or Float Values and give you the quotient as a floor value (without the remainder included). | `a = 4 // 3` |
-| % | The Modulus Operator.  This will give you the remainder of two divided Integer or Float Values. | `a = 7 % 3` |
-
-  As a side note, the `Addition Operator` is frequently used with strings in the following manner:
-```python  
-name = "Willie Nelson"
-
-print("Your name is not " + name)
-```
-
-  This works as it is essentially Adding the name value to the string provided in the `print` statement.
-
-### Comparison Operators
-
-  Comparison Operators, in python, are operators that compare two values or statements; such as checking if one value is greater than or equal to another.  Below are some examples of Comparison Operators:
-  
-| Operator | Description | Example |
-| --- | --- | --- |
-| == | The `is equal to` operator.  This operator compares two values to see if they are equal.  If they aren't equal, it returns False.  If they are equal, it returns True. | `a = (5) == (4+1)` |
-| != | The `is not equal to` operator.  This operator compares two values to see if they are not equal.  If they aren't equal, it returns True, if they are Equal, it returns False (opposite of `==`) | `a = (5) != (3+50)` |
-| < | The `Less Than` operator.  This operator compares two values (or statements) to see if the left section is less than the right section; if so it equates to `True` | `a = 4 < 6` |
-| > | The `Greater Than` operator.  This operator compares to value (or statements) to see if the left section is greater than the right section; if so it equates to `True` | `a = 5 > 3` |
-| <= | The `Less Than or Equal To` operator.  This operator behaves the same as the `<` operator but also checks if the values are the same; if so it equates to `True` | `a = 5 <= 5` |
-| >= | The `Greater Than or Equal To` opeartor.  This operator behaves the same as the `>` operator but also checks if the values are the same; if so it equates to `True` | `a = 3 >= 3` |
-
+>>  As a side note, the `Addition Operator` is frequently used with strings in the following manner:
+>>```python  
+>>name = "Willie Nelson"
+>>
+>>print("Your name is not " + name)
+>>```
+>>
+>>  This works as it is essentially Adding the name value to the string provided in the `print` statement.
+>
+>### Comparison Operators
+>
+>>  Comparison Operators, in python, are operators that compare two values or statements; such as checking if one value is greater than >>or equal to another.  Below are some examples of Comparison Operators:
+>>  
+>>| Operator | Description | Example |
+>>| --- | --- | --- |
+>>| == | The `is equal to` operator.  This operator compares two values to see if they are equal.  If they aren't equal, it returns >>False.  If they are equal, it returns True. | `a = (5) == (4+1)` |
+>>| != | The `is not equal to` operator.  This operator compares two values to see if they are not equal.  If they aren't equal, it >>returns True, if they are Equal, it returns False (opposite of `==`) | `a = (5) != (3+50)` |
+>>| < | The `Less Than` operator.  This operator compares two values (or statements) to see if the left section is less than the right >>section; if so it equates to `True` | `a = 4 < 6` |
+>>| > | The `Greater Than` operator.  This operator compares to value (or statements) to see if the left section is greater than the >>right section; if so it equates to `True` | `a = 5 > 3` |
+>>| <= | The `Less Than or Equal To` operator.  This operator behaves the same as the `<` operator but also checks if the values are the >>same; if so it equates to `True` | `a = 5 <= 5` |
+>>| >= | The `Greater Than or Equal To` opeartor.  This operator behaves the same as the `>` operator but also checks if the values are >>the same; if so it equates to `True` | `a = 3 >= 3` |
+>
 ### Assignment Operators
 
   In python, `Assignment Operators` are operators that are responsible for setting and adjusting the value of a variable.  Listed below are some Assigment Operators that you're likely to encounter:
