@@ -44,7 +44,7 @@
 >      as text.  Examples: `"Cookie"`, `"3"`, `"A"`.  A string is defined in Python by being
 >      encompassed by single quotes `'` or doublequotes `"`.
 >    
->  Python is a loosely typed language.  Typed, in this sense, is referring to the Variable Type (one of the above mentioned).  THis >means that you do not have to specify the variable type prior to assigning a value to it as you would have to in some other Programming >Languages.  For instance:
+>  Python is a loosely typed language.  Typed, in this sense, is referring to the Variable Type (one of the above mentioned).  This means that you do not have to specify the variable type prior to assigning a value to it as you would have to in some other Programming Languages.  For instance:
 >  
 >```Python
 >a = 10       # a is set to the Integer value of 10
