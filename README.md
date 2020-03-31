@@ -53,7 +53,7 @@
 >a = True     # a is now set to the Boolean value of True
 >```
 >
->  As seen above, the variable `a` has been assigned and reassigned to all the different variable types without having to specify the >type prior to it being set and re-set.  This is what defines a loosely typed language.
+>  As seen above, the variable `a` has been assigned and reassigned to all the different variable types without having to specify the type prior to it being set and re-set.  This is what defines a loosely typed language.
 ---  
 ## Operators
   
