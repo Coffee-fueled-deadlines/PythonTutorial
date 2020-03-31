@@ -69,7 +69,7 @@
 >>| + | The Addition operator.  This will add two variables together.  For Integers and Floats, it'll return the sum of the values.  For >>strings, it will return the two strings pieced together into one string.  | `a = 1 + 5` |
 >>| - | The Subtraction operator.  This will subtract two Integer or Float values and give you the difference | `a = 5 - 3` |
 >>| * | The Multiplication operator.  This will multiply two Integer or Float values and give you the product.  In addition, it can be >>used to multiple the number of times a string value is delivered/printed | `a = 1 * 5` |
->>| ** | The Exponent operator.  This will apply an exponent value to a string or float and return the value. | `a = 2 ** 3` |
+>>| ** | The Exponent operator.  This will apply an exponent value to an int or float and return the value. | `a = 2 ** 3` |
 >>| / | The Division operator.  This will divide two Integer or Float values and give you the quotient. | `a = 4 / 2` |
 >>| // | The Floor Division operator.  This will divide two Integer or Float Values and give you the quotient as a floor value (without >>the remainder included). | `a = 4 // 3` |
 >>| % | The Modulus Operator.  This will give you the remainder of two divided Integer or Float Values. | `a = 7 % 3` |
