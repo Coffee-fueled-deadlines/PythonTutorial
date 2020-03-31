@@ -254,7 +254,7 @@ print(mydict['name']) # You'll see the name value stored in that json file that 
 
 ## Functions
 
-  In python, Functions are sections of code that are reusable and callable in later sections of your script.  They can be supplied arguments and often return a value, however they can be created in a way that accepts no variables and returns nothing but instead runs a redetermined set of instructions.  A few examples are below:
+  In python, Functions are sections of code that are reusable and callable in later sections of your script.  They can be supplied arguments and often return a value, however they can be created in a way that accepts no variables and returns nothing but instead runs a predetermined set of instructions.  A few examples are below:
 ```python
 # Lets make our function
 def say_hello(name):
